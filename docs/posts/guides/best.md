@@ -33,7 +33,7 @@ permalink: /docs/posts/guides/best
 设置后可替代模版内容,如图中文字内容。
 {: .fs-3 }
 
-![Filter by categories](assets/images/posts/index/filter_by_categories.jpg)
+![Filter by categories]({{site.url}}{{site.baseurl}}/assets/images/posts/index/filter_by_categories.jpg)
 
 #### Intro
 {: .fw-500 }
@@ -49,15 +49,25 @@ permalink: /docs/posts/guides/best
 
 ### Base Info
 
-![Base Info](assets/images/posts/index/base_info.jpg)
+灰色状态表单为不可修改，父级guide创建时自动创建。
 
-#### List Type - Top列表类型
+- List Type: 列表类型
+- Name: 主题关键词
+- Presentation: 相对主题的简写
+- Featured: 精选
+- Template: 重新指定模版
+- Author: 作者（只能超级管理员修改）
+- Children's Binding: 创建子页分组
+
+![Base Info]({{site.url}}{{site.baseurl}}/assets/images/posts/index/base_info.jpg)
+
+#### List Type
 {: .fw-500 }
 
 用于`Schema`标记
 {: .fs-3 }
 
-#### Children's Binding - 创建子页分组
+#### Children's Binding
 {: .fw-500 }
 
 Binding 中先创建数据，这里是对现有分组进行选择，而非直接创建。
