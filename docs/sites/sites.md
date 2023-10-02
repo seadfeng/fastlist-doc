@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sites
+title: Sites - 站点配置
 nav_order: 2
 has_children: true
 permalink: /docs/sites
