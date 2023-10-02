@@ -1,8 +1,8 @@
 title: Fastlist Docs
 description: Fastlist 用户指南，模版开发指南
 theme: just-the-docs
-
-url: https://seadfeng.github.io/fastlist-doc/
+baseurl: /fastlist-doc
+url: https://seadfeng.github.io
 
 aux_links:
   Doc Repository: https://github.com/seadfeng/fastlist-doc
