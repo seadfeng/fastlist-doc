@@ -12,7 +12,9 @@ permalink: /docs/sites/base
 Meta 信息为缺省时使用，一般情况用不上，具体页面Meta在模版管理中设置
 {: .fs-6 .fw-300 }
 
-## 目录
+---
+
+## TABLE OF CONTENTS
 {: .no_toc .text-delta }
 
 1. TOC

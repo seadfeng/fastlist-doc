@@ -12,7 +12,9 @@ permalink: /docs/sites/system
 重要配置，不了解参数用处，不要修改。
 {: .fs-6 .fw-300 }
 
-## 目录
+---
+
+## TABLE OF CONTENTS
 {: .no_toc .text-delta }
 
 1. TOC
