@@ -39,7 +39,7 @@ Guide子页类型有多种，其中**best**类型是常见的"Best Guide"最佳�
 
 如图，Children 选项卡下有快捷创建链接.
 
-![创建子页](/assets/images/posts/index/root_create_child.jpg)
+![创建子页]({{site.url | append: "/assets/images/posts/index/root_create_child.jpg"}})
 
 
 ## 三级子页文章类型
