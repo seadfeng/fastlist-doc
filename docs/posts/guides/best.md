@@ -25,6 +25,28 @@ permalink: /docs/posts/guides/best
 
 ## Tab - 标签选项卡
 
+### Content
+
+#### Filter by category description
+{: .fw-500 }
+
+设置后可替代模版内容,如图中文字内容。
+{: .fs-3 }
+
+![Filter by categories](/assets/images/posts/index/filter_by_categories.jpg)
+
+#### Intro
+{: .fw-500 }
+
+设置后可替代模版内容
+{: .fs-3 }
+
+#### Conclusion
+{: .fw-500 }
+
+设置后可替代模版内容
+{: .fs-3 }
+
 ### Base Info
 
 ![Base Info](/assets/images/posts/index/base_info.jpg)
