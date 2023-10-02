@@ -39,7 +39,7 @@ Guide子页类型有多种，其中**best**类型是常见的"Best Guide"最佳�
 
 如图，Children 选项卡下有快捷创建链接.
 
-![创建子页]({{site.url | append: "/assets/images/posts/index/root_create_child.jpg"}})
+![创建子页](../../../assets/images/posts/index/root_create_child.jpg)
 
 
 ## 三级子页文章类型
@@ -48,11 +48,11 @@ Guide子页类型有多种，其中**best**类型是常见的"Best Guide"最佳�
 
 ---
 
-[best]: /docs/posts/guides/best
-[review]: /docs/posts/guides/review
-[comparison]: /docs/posts/guides/comparison
-[tutorial]: /docs/posts/guides/tutorial
-[tip]: /docs/posts/guides/tip
-[deal]: /docs/posts/guides/deal
-[alternative]: /docs/posts/guides/alternative
-[resources]: /docs/posts/guides/resources
+[best]: ../../../docs/posts/guides/best
+[review]: ../../../docs/posts/guides/review
+[comparison]: ../../../docs/posts/guides/comparison
+[tutorial]: ../../../docs/posts/guides/tutorial
+[tip]: ../../../docs/posts/guides/tip
+[deal]: ../../../docs/posts/guides/deal
+[alternative]: ../../../docs/posts/guides/alternative
+[resources]: ../../../docs/posts/guides/resources

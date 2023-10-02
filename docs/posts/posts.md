@@ -23,7 +23,7 @@ permalink: /docs/posts
 
 子页分组后导航模块内容,常用于Best guide 父级页面.
 
-![Filter by categories]({{site.url | append: "/assets/images/posts/index/filter_by_categories.jpg"}})
+![Filter by categories](../../assets/images/posts/index/filter_by_categories.jpg)
 
 ### Sections - 章节 H2 段落
 

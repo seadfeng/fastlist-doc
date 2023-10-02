@@ -33,7 +33,7 @@ permalink: /docs/posts/guides/best
 设置后可替代模版内容,如图中文字内容。
 {: .fs-3 }
 
-![Filter by categories]({{site.url | append: "/assets/images/posts/index/filter_by_categories.jpg"}})
+![Filter by categories](../../../assets/images/posts/index/filter_by_categories.jpg)
 
 #### Intro
 {: .fw-500 }
@@ -49,7 +49,7 @@ permalink: /docs/posts/guides/best
 
 ### Base Info
 
-![Base Info]({{site.url | append: "/assets/images/posts/index/base_info.jpg"}})
+![Base Info](../../../assets/images/posts/index/base_info.jpg)
 
 #### List Type - Top列表类型
 {: .fw-500 }
