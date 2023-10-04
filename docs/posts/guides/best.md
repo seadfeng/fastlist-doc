@@ -35,7 +35,7 @@ permalink: /docs/posts/guides/best
 
 {: .warning }
 > - 注意`Guide`表格的**Create Best**列用于创建 (Best Guide) 主题父级页面，需要创建填`Yes`。 另外`Best`表格**Parent**如果填了关联，也会自动创建这个主题，不管Guide表格是否填了`Yes`值。
-- **Taxon** 使用路径格式`Root Category / Child Category`，第一层分类必须人工在系统中创建，除了第一层会自动创建，需要谨慎填写。默认系统设定**最多创建两层**，超过两层分类页展示逻辑没有做处理。
+- **Taxon** 使用路径格式`Root Category / Child Category`，第一层分类必须人工在系统中创建，第一层之后会自动创建，需要谨慎填写（区分大小写，最好的办法是复制保持一致）。系统默认设定**最多两层**，超过两层分类页展示逻辑没有做处理。
 
 ### 导入后报告
 
@@ -112,10 +112,29 @@ permalink: /docs/posts/guides/best
 #### Children's Binding
 {: .fw-500 }
 
-{: .highlight }
-> 先在Binding[^2]中创建数据, 这里是对现有分组进行选择，而非直接创建。
-Tab: Buying Guide, 创建此数据后才会出现的Tab
+{: .note }
+> 后台编辑创建步骤相对繁琐, 建议使用excel数据表来导入，效率会更高。
+
+以下为人工编辑流程
+
+1. 在Binding[^2]中预先创建数据
+2. Binding分组进行选择(支持多选).
+3. Children 中添加子级页面 (子页数量超过600不能用这个操, TODO: 后续解决，数量多通过数据表添加最佳)
+4. 子级页面添加选择`Binding`，这里有两个地方可以进行编辑:
+  - Tab: Children - 当前页 ![ Tab: Children]({{site.url}}{{site.baseurl}}/assets/images/posts/best/children-tab.jpg)
+  - Child edit page => Tab: Bindings - 进入子级页面编辑 ![ Child => Tab: Bindings]({{site.url}}{{site.baseurl}}/assets/images/posts/best/child-binding-tab.jpg)
+
+
+#### Buying Guide
+{: .fw-500 }
+
+[Children's Binding](#childrens-binding) 数据创建后才会出现这个选项卡
 {: .fs-3 }
+
+
+数据排序在右侧边栏，有两项排序可以拖拽操作。
+
+![Binding Sorting]({{site.url}}{{site.baseurl}}/assets/images/posts/best/binding-sorting.jpg)
 
 ---
 
