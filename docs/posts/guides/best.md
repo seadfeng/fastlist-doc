@@ -26,7 +26,7 @@ permalink: /docs/posts/guides/best
 
 目前支持excel 文件导入, 后缀文件名 `.xlsx`，多Sheet管理, 其中`Guide`是创建根页指南, `Best`创建底层的 Best Guide指南.
 
-Sheet 表名
+### Sheet 表名
 
 - Guide
 - Best 
@@ -34,13 +34,24 @@ Sheet 表名
 [Import Demo: Guide.xlsx]({{site.url}}{{site.baseurl}}/assets/images/posts/best/guide.xlsx)
 
 {: .warning }
-> 注意`Guide`表格的`Create Best`列用于创建`Best Guide`主题父级页面，需要创建填`Yes`。 另外`Best`表格`Parent`如果填了关联，也会自动创建这个主题，不管Guide表格是否填了`Yes`值。
+> - 注意`Guide`表格的**Create Best**列用于创建 (Best Guide) 主题父级页面，需要创建填`Yes`。 另外`Best`表格**Parent**如果填了关联，也会自动创建这个主题，不管Guide表格是否填了`Yes`值。
+- **Taxon** 使用路径格式`Root Category / Child Category`，第一层分类必须人工在系统中创建，除了第一层会自动创建，需要谨慎填写。默认系统设定**最多创建两层**，超过两层分类页展示逻辑没有做处理。
 
-**导入提示:**
+### 导入后报告
+
+报告中包含三项指标数据，注意里面是按分表报告，修正时不要看错了, `# 2` 是表中对应的行数**2**。
+
+- Skip: 异常跳过，创建数据失败后的记录，正常情况会包含失败原因，方便做修正。
+- Created: 实际创建
+- Existed: 已存在，这里会包含重复数据（图中Sheet: Guide => #2, #3, #4 Slug值一样）
 
 ![Import Reports]({{site.url}}{{site.baseurl}}/assets/images/posts/index/guide-import.png)
 
-**导入的数据:**
+### 导入的数据
+
+{: .note }
+> 这个例子中 "Best Proxy" 是被动创建的页面，表格不可以操控相关数据，需要修改数据在后台处理。
+
 ![Imported Data]({{site.url}}{{site.baseurl}}/assets/images/posts/best/import-data.jpg)
 
 
