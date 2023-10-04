@@ -22,6 +22,27 @@ permalink: /docs/posts/guides/best
 
 ---
 
+## Import - 数据导入
+
+目前支持excel 文件导入, 后缀文件名 `.xlsx`，多Sheet管理, 其中`Guide`是创建根页指南, `Best`创建底层的 Best Guide指南.
+
+Sheet 表名
+
+- Guide
+- Best 
+
+[Import Demo: Guide.xlsx]({{site.url}}{{site.baseurl}}/assets/images/posts/best/guide.xlsx)
+
+{: .warning }
+> 注意`Guide`表格的`Create Best`列用于创建`Best Guide`主题父级页面，需要创建填`Yes`。 另外`Best`表格`Parent`如果填了关联，也会自动创建这个主题，不管Guide表格是否填了`Yes`值。
+
+**导入提示:**
+
+![Import Reports]({{site.url}}{{site.baseurl}}/assets/images/posts/index/guide-import.png)
+
+**导入的数据:**
+![Imported Data]({{site.url}}{{site.baseurl}}/assets/images/posts/best/import-data.jpg)
+
 
 ## Tab - 选项卡
 
@@ -81,7 +102,7 @@ permalink: /docs/posts/guides/best
 {: .fw-500 }
 
 {: .highlight }
-> 先在Binding[^2]中先创建数据, 这里是对现有分组进行选择，而非直接创建。
+> 先在Binding[^2]中创建数据, 这里是对现有分组进行选择，而非直接创建。
 Tab: Buying Guide, 创建此数据后才会出现的Tab
 {: .fs-3 }
 
