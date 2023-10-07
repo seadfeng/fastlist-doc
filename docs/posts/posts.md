@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Posts - 文章
-nav_order: 3
+nav_order: 6
 has_children: true
 permalink: /docs/posts
 ---
@@ -11,6 +11,14 @@ permalink: /docs/posts
 
 文章层级最大深度为两层，顶层深度为0. 目前顶层文章类型只有**guide**
 {: .fs-6 .fw-300 }
+
+
+## 层级关系
+
+{: .warning }
+> Comparison 的Vs.类型设计还在构思阶段
+
+![文章层级关系]({{site.url}}{{site.baseurl}}/assets/images/posts/index/guide-tree.png)
 
 ## 常见通用字段
 

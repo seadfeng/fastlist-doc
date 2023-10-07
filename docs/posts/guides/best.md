@@ -26,6 +26,20 @@ permalink: /docs/posts/guides/best
 
 目前支持excel 文件导入, 后缀文件名 `.xlsx`，多Sheet管理, 其中`Guide`是创建根页指南, `Best`创建底层的 Best Guide指南.
 
+{: .note}
+> - Guide: 
+  - Slug, Topic, Create Best, Subtitle 非必填
+  - Author Id
+  - Name
+  - Presentation
+  - Taxon
+- Best: 以下都是必填
+  - Parent
+  - Name
+  - Presentation
+  - Binding
+  - Author Id
+
 ### Sheet 表名
 
 - Guide
