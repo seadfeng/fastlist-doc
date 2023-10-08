@@ -42,10 +42,15 @@ permalink: /docs/posts/guides/best
 
 ### Sheet 表名
 
-- Guide
-- Best 
+{: .note }
+> 表名字是固定格式，不要随意更改.
 
-[Import Demo: Guide.xlsx]({{site.url}}{{site.baseurl}}/assets/images/posts/best/guide.xlsx)
+- Guide: 顶级文章
+- Best: 底层Best文章
+- Listing: Best主题排行榜 - 手工输入数据
+- Amazon Filter: Best主题排行榜 - 自定义爬虫获取（ABA没有数据的情况下使用）
+
+[Import Demo: Guide.xlsx]({{site.url}}{{site.baseurl}}/data/guide.xlsx)
 
 {: .warning }
 > - 注意`Guide`表格的**Create Best**列用于创建 (Best Guide) 主题父级页面，需要创建填`Yes`。 另外`Best`表格**Parent**如果填了关联，也会自动创建这个主题，不管Guide表格是否填了`Yes`值。
