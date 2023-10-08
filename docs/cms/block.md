@@ -35,11 +35,25 @@ Menu: Cms / Block
 
 Identity: `layout_*`， layout_ 开头不允许删除
 
-### Header - 页顶 & 导航
+### Header
 
-Identity: `layout_header`
+页顶 & 导航
 
-### Footer - 页底
+Block Identity: `layout_header`
+
+{: .note }
+> LOGO宽度设置，根据站点logo长度调整（不是填实际图片长度，而是手工调整大小来适应导航条）
+
+
+```html
+{%- raw -%}
+{% render "silicon/header/navbar" site: site, logo_width: 40, nav_dark: false %}
+{% endraw -%}
+```
+
+### Footer
+
+页底
 
 Identity: `layout_footer`
 
