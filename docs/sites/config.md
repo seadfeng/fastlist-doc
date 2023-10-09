@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Config - 站点参数配置
-nav_order: 1
+nav_order: 3
 parent: Sites - 站点配置
 permalink: /docs/sites/config
 ---

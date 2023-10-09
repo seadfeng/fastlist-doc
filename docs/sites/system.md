@@ -1,7 +1,7 @@
 ---
 layout: default
 title: System - 站点系统参数
-nav_order: 1
+nav_order: 6
 parent: Sites - 站点配置
 permalink: /docs/sites/system
 ---
