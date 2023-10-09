@@ -1,7 +1,7 @@
 ---
 layout: default
 title: UI & Theme
-nav_order: 4
+nav_order: 1
 parent: Sites - 站点配置
 permalink: /docs/sites/theme
 ---
